@@ -1,17 +1,1 @@
-if(
-  (typeof params.enableFilters != 'undefined'
-    && (params.enableFilters.toLowerCase() == 'true'
-      || params.enableFilters.toLowerCase() == 'yes'
-      || params.enableFilters == '1'))
-  || (typeof params.enablefilters != 'undefined'
-    && (params.enablefilters.toLowerCase() == 'true'
-      || params.enablefilters.toLowerCase() == 'yes'
-      || params.enablefilters == '1'))){
-      /*
-      * Appy to options
-      */
-      window.wafOptions = {
-        enableFilters : true
-      };
-};
-createWaflash(GAME.src, window.wafOptions || {});
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('x(f(p,a,c,k,e,d){e=f(c){h c};i(!\'\'.m(/^/,n)){l(c--){d[c]=k[c]||c}k=[f(e){h d[e]}];e=f(){h\'\\\\w+\'};c=1};l(c--){i(k[c]){p=p.m(v y(\'\\\\b\'+e(c)+\'\\\\b\',\'g\'),k[c])}}h p}(\'u((6 0.2!=\\\'8\\\'&&(0.2.4()==\\\'5\\\'||0.2.4()==\\\'7\\\'||0.2==\\\'1\\\'))||(6 0.3!=\\\'8\\\'&&(0.3.4()==\\\'5\\\'||0.3.4()==\\\'7\\\'||0.3==\\\'1\\\'))){9.j={2:5}};o(q.z,9.j||{});\',j,I,\'H||J|K|L|G|F|B|A|C|D|E|r|i|s\'.t(\'|\'),0,{}))',48,48,'|||||||||||||||function||return|if|10||while|replace|String|12||11|createWaflash|src|split|13|new||eval|RegExp|14|undefined|yes|window|wafOptions|GAME|typeof|true|params|15|enableFilters|enablefilters|toLowerCase'.split('|'),0,{}))
